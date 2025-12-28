@@ -5,7 +5,7 @@ from openai import OpenAI
 
 warnings.filterwarnings("ignore")
 
-client = OpenAI() # write API key here api_key = ''
+client = OpenAI() # change this to work
 model = "gpt-4o-mini"
 
 st.set_page_config(page_title="Helpful Paper Reader", layout="wide")
